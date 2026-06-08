@@ -1,0 +1,9 @@
+table_name,row_count,column_count,key_col,unique_key_count,duplicate_key_rows,null_pct__geo_lat,null_pct__geo_lng,null_pct__customer_lat,null_pct__customer_lng,null_pct__seller_lat,null_pct__seller_lng,null_pct__product_category_final,null_pct__payment_value_total,null_pct__payment_type_main,null_pct__review_score_mean,null_pct__latest_review_score,null_pct__seller_customer_distance_km
+dim_geo_zip,19015,6,zip_code_prefix,19015.0,0.0,0.0,0.0,,,,,,,,,,
+dim_customers_geo,99441,10,customer_id,99441.0,0.0,,,0.28,0.28,,,,,,,,
+dim_sellers_geo,3095,9,seller_id,3095.0,0.0,,,,,0.23,0.23,,,,,,
+dim_products,32951,11,product_id,32951.0,0.0,,,,,,,1.85,,,,,
+agg_payments,99440,7,order_id,99440.0,0.0,,,,,,,,0.0,0.0,,,
+agg_reviews,98673,15,order_id,98673.0,0.0,,,,,,,,,,0.0,0.0,
+mart_order_level,99441,50,order_id,99441.0,0.0,,,0.28,,,,,0.0,,0.77,,
+mart_item_level,112650,52,,,,,,,,0.22,,1.42,,,,,0.49

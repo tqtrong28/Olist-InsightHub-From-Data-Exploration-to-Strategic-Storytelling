@@ -1,0 +1,3 @@
+table_name,row_count,unique_order_id,date_min,date_max,null_pct_review_score_mean,null_pct_shipping_days,null_pct_freight_ratio,null_pct_distance_km
+mart_order_level,99441,99441,2016-09-04 21:15:19,2018-10-17 17:30:18,0.77,2.98,,
+mart_item_level,112650,98666,2016-09-04 21:15:19,2018-09-03 09:06:57,,,0.0,0.49
